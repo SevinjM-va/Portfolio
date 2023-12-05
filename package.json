@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run both",
     "server": "nodemon backend/server.js",
-    "client": "npm start --prefix blog",
-    "both": "concurrently \"npm run server\" \"npm run client\""
+    "start": "npm start --prefix blog",
+    "both": "concurrently \"npm run server\" \"npm run start\""
   },
   "keywords": [],
   "author": "",
