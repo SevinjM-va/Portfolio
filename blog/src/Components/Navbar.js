@@ -6,12 +6,12 @@ export const Navbar =()=>{
   return(
     <header className="headcont">
       <nav className="container">
-        <a href="#section-1">
+      <Link to='/'>
         <div className="navbar-container1">
           <img className="profilimg" src={photo} alt=""/>
           <h3 className="namesurname">SEVINJ MAMMADOVA</h3>
         </div>
-        </a>
+        </Link>
         <div className="navbar-container2">
           <ul>
             <li><Link to='/'>HOME</Link></li>

@@ -58,7 +58,7 @@ export const Home =()=>{
         <h1 className="heading">HEY, I'M SEVINJ MAMMADOVA</h1>
         <p className="headerp"> A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
 
-        <button><a href="#section-3">PROJECTS</a></button>
+        <button><Link to='/projects'>PROJECTS</Link></button>
       </div>
     </main>
 
