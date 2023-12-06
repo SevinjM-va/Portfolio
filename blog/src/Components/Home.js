@@ -121,7 +121,7 @@ export const Home =()=>{
             Crafted an Food Delivery website using React.js with dinamic galeries. I utilized React.js and Node.js in the development of a food delivery website. The site features various restaurants from which users can choose their preferred meals. Each restaurant has a dedicated menu page displaying available food items. User data for login and sign-up processes are stored in a PostgreSQL database. Additionally, I have implemented a system to ensure that all orders are accurately recorded in the database.  
             </p>
             <a href='https://github.com/SevinjM-va/My_Project/tree/main/FoodDelivery' target='blank'>
-            <button >View in GitHub<i class="fa-regular fa-eye"></i></button>
+            <button className='projBtn' >View in GitHub<i class="fa-regular fa-eye"></i></button>
             </a>
         </div>
       </div>
@@ -131,12 +131,12 @@ export const Home =()=>{
           <img className="project2img" src={img2} alt=""/>
         </div>
         <div className='detail'>
-          <h3>Movie App</h3>
+          <h3 className='detailsheader'>Movie App</h3>
             <p className="project1p">
             I developed a Movie App using React.js. I leveraged React.js to fetch all information from an API based on search queries. This process involved a secondary fetch operation nested within the initial fetch. I utilized Redux as a tool to dispatch the fetched data to all components
             </p>
             <a href='https://github.com/SevinjM-va/Bootcamp/tree/main/Week9/Day5/MovieApp/blog' target='blank'>
-            <button >View in GitHub<i className="fa-regular fa-eye"></i></button>
+            <button className='projBtn'>View in GitHub<i className="fa-regular fa-eye"></i></button>
             </a>
         </div>
       </div>
@@ -146,18 +146,18 @@ export const Home =()=>{
           <img class="project3img" src={img3} alt=""/>
         </div>
         <div className='detail'>
-          <h3>Word Game for Kids</h3>
+          <h3 className='detailsheader' >Word Game for Kids</h3>
             <p class="project1p">
               I made this game with NodeJS. All questions come from PostgreSQL but checking in frontend.
             </p>
             <a href='https://github.com/SevinjM-va/Hackathon2' target='blank'>
-            <button >View in GitHub<i class="fa-regular fa-eye"></i></button>
+            <button  className='projBtn'>View in GitHub<i class="fa-regular fa-eye"></i></button>
             </a>
         </div>
       </div>
     </section>
 
-    <section class="sections" id="section-4">
+    {/* <section class="sections" id="section-4">
       <div class="aboutme">
         <h1 class="abouthead">CONTACT</h1>
           <p class="aboutp">Here you can write your any message to me. </p>
@@ -177,6 +177,6 @@ export const Home =()=>{
         </form>
       </div>}
     </section>
-    
+     */}
     </div>
   )}

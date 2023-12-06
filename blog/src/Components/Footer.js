@@ -9,13 +9,13 @@ export const Footer = () => {
     <footer>
       <div className="footer1">
         <div className="footer11">
-          <h3>SEVINJ MAMMADOVA</h3>
-          <p>
+          <h3 className="footerheader">SEVINJ MAMMADOVA</h3>
+          <p className="footerp">
           Full Stack JavaScript developer with a focus on building both the frontend and backend of websites and web applications. My goal is to contribute to the success of the overall product.
           </p>
         </div>
 
-        <div>
+        <div className="footerSM">
           <h3>Social</h3>
           <div className="icon-container-footer">
             <a
@@ -48,7 +48,7 @@ export const Footer = () => {
       </div>
 
       <hr></hr>
-      <div class="footer2">
+      <div className="footer2">
         <div>
           <img className="copyright" src="Img/copyright.png" alt="" />
         </div>

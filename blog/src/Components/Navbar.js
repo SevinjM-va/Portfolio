@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import photo from "../Img/SEVINJ.jpg";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
+const [data, setData] = useState(false);
+
+  const dropdown=()=>{
+    if(!data){
+      setData(true)
+    } else {
+      setData(false)
+    }
+      
+  }
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" id="namesurname" to='/'>
@@ -17,8 +28,20 @@ export const Navbar = () => {
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        onClick={dropdown}
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon">
+        {data? 
+        <ul className="dropMenu">
+          <li className="drop">
+          <Link className="dropLink" to='/'>HOME</Link>
+            </li>
+          <li className="drop"><Link className="dropLink" to='/about'>ABOUT</Link></li>
+          <li className="drop"><Link className="dropLink" to='/projects'>PROJECTS</Link></li>
+          <li className="drop"><Link  className="dropLink" to='/contact'>CONTACT</Link></li>
+        </ul>:''}
+      
+        </span>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,8 +63,6 @@ export const Navbar = () => {
           <Link className="nav-link" to='/contact'>CONTACT
             </Link>
           </li>
-         
-          
         </ul>
       </div>
     </nav>
