@@ -111,12 +111,12 @@ export const Home =()=>{
           <p className="aboutp">Here you will find some of my projects </p>
       </div>
 
-      <div className="project1">
+      <div className="project">
         <div className="projectimgDiv" >
           <img className="project2img" src={img1} alt=""/>
         </div>
         <div className='detail'>
-          <h3>SeeFoo-Food Delivery</h3>
+          <h3 className='detailsheader'>SeeFoo-Food Delivery</h3>
             <p className="project1p">
             Crafted an Food Delivery website using React.js with dinamic galeries. I utilized React.js and Node.js in the development of a food delivery website. The site features various restaurants from which users can choose their preferred meals. Each restaurant has a dedicated menu page displaying available food items. User data for login and sign-up processes are stored in a PostgreSQL database. Additionally, I have implemented a system to ensure that all orders are accurately recorded in the database.  
             </p>
@@ -126,7 +126,7 @@ export const Home =()=>{
         </div>
       </div>
 
-      <div className="project2">
+      <div className="project">
         <div  className="projectimgDiv" >
           <img className="project2img" src={img2} alt=""/>
         </div>
@@ -141,7 +141,7 @@ export const Home =()=>{
         </div>
       </div>
 
-      <div class="project3">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img3} alt=""/>
         </div>

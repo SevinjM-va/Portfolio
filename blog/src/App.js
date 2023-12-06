@@ -10,7 +10,7 @@ import { About } from './Components/About';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar/>
       <Routes>
        <Route exact path="/" element={<Home />} />

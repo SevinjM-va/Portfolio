@@ -21,7 +21,7 @@ export const Projects =()=>{
         <h1 className="abouthead">My Projects</h1>
       </div>
 
-      <div className="project1">
+      <div className="project">
         <div className="projectimgDiv" >
           <img className="project2img" src={img1} alt=""/>
         </div>
@@ -36,7 +36,7 @@ export const Projects =()=>{
         </div>
       </div>
 
-      <div className="project2">
+      <div className="project">
         <div  className="projectimgDiv" >
           <img className="project2img" src={img2} alt=""/>
         </div>
@@ -51,7 +51,7 @@ export const Projects =()=>{
         </div>
       </div>
 
-      <div class="project3">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img3} alt=""/>
         </div>
@@ -65,7 +65,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project4">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img4} alt=""/>
         </div>
@@ -79,7 +79,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project5">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img5} alt=""/>
         </div>
@@ -93,7 +93,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project6">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img6} alt=""/>
         </div>
@@ -107,7 +107,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project7">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img7} alt=""/>
         </div>
@@ -121,7 +121,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project8">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img8} alt=""/>
         </div>
@@ -135,7 +135,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project8">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img9} alt=""/>
         </div>
@@ -149,7 +149,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project8">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img10} alt=""/>
         </div>
@@ -163,7 +163,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project8">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img11} alt=""/>
         </div>
@@ -177,7 +177,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project8">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img12} alt=""/>
         </div>
@@ -191,7 +191,7 @@ export const Projects =()=>{
             </a>
         </div>
       </div>
-      <div class="project8">
+      <div class="project">
         <div  class="projectimgDiv">
           <img class="project3img" src={img13} alt=""/>
         </div>
