@@ -1,6 +1,6 @@
-import React, {  useRef, useState } from 'react';
+// import React, {  useRef, useState } from 'react';
 import {  Link } from "react-router-dom";
-import axios from 'axios';
+// import axios from 'axios';
 import linkedin from '../Img/linkedin.svg';
 import facebook from '../Img/facebook.svg';
 import youtube from '../Img/youtube.svg';
@@ -10,30 +10,30 @@ import img2 from '../Img/movieApp/img1.jpg';
 import img3 from '../Img/hack2/img2.jpg';
 
 export const Home =()=>{
-  const [mess, setMessage] = useState('');
+  // const [mess, setMessage] = useState('');
 
-  const persName = useRef('persName');
-  const persEmail = useRef('persEmail');
-  const persMessage = useRef('persMessage');
+  // const persName = useRef('persName');
+  // const persEmail = useRef('persEmail');
+  // const persMessage = useRef('persMessage');
 
-  const handleClick= async(e)=>{
-    e.preventDefault();
-    try{
-      const { data } = await axios.post('http://localhost:3500/home',{
-        name: persName.current.value,
-        email: persEmail.current.value,
-        message: persMessage.current.value
-      })
-      if(data.success){
-        setMessage('Thank you for your message.')
-      } else {
-        console.log('Request was successful', data);
-      }
-    } 
-    catch(err){
-      console.error('Something went wrong!',err)
-    }
-  }
+  // const handleClick= async(e)=>{
+  //   e.preventDefault();
+  //   try{
+  //     const { data } = await axios.post('http://localhost:3500/home',{
+  //       name: persName.current.value,
+  //       email: persEmail.current.value,
+  //       message: persMessage.current.value
+  //     })
+  //     if(data.success){
+  //       setMessage('Thank you for your message.')
+  //     } else {
+  //       console.log('Request was successful', data);
+  //     }
+  //   } 
+  //   catch(err){
+  //     console.error('Something went wrong!',err)
+  //   }
+  // }
 
   return(
     <div>
@@ -56,7 +56,7 @@ export const Home =()=>{
     <main id="section-1">
       <div className="header">
         <h1 className="heading">HEY, I'M SEVINJ MAMMADOVA</h1>
-        <p className="headerp"> A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+        <p className="headerp">As a full-stack JavaScript-focused web developer, I specialize in building the frontend and backend of websites and web applications, contributing to the overall success of the product.</p>
 
         <button><Link to='/projects'>PROJECTS</Link></button>
       </div>
